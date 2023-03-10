@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>product</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <div class="logo"><a href="index.html"><img src="LOGO.png"></a></div>
+        <div class="sbox">
+            <input type="text" placeholder="Search...">
+            <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="sale.html">Offers</a></li>
+                <li><a href="newarrivals.html">New Arrivals</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>    
+            </ul>
+        </nav>
+       </section>
+    
+    <section class="navi"> 
+        
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+           <img src="sale4b.webp" width="100%" id="mainimg" alt="">
+           <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="sale4a.webp" alt="" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="sale4c.webp" alt="" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="sale4d.webp" alt="" width="100%" class="small-img" alt="">
+            </div>
+            </div> 
+        </div>
+
+        <div class="single-pro-details">
+
+        </div>
+    
+    <div class="single-pro-details">
+        <h5>Shoes /Adidas</h5>
+        <h4>Dunk Low Disrupt 2</h4>
+        <h2>₹10000</h2> <h3>₹20000</h3>
+        <br>
+
+        <select>
+            <option>Select Size</option>
+            <option>UK 6.5</option>
+            <option>UK 7</option>
+            <option>UK 7.7</option>
+            <option>UK 10</option>
+        </select>
+        </br>
+        <input type="number" value="1">
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>The Dunk Low Disrupt 2 bridges tried-and-tested style with a customisable design. Double eyestays pair with an offset bottom eyelet (and an extra set of laces) for a unique twist that lets you personalise your look, while its playful layering and rich textures energise every step.</br>
+            <br>Colour Shown: Midnight Navy/Tour Yellow/White/Obsidian
+        </br>Style: DV4024-400</span>
+    </div>
+    </section>
+
+    <script>
+        var mainimg=document.getElementById("mainimg");
+        var smallimg=document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            mainimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            mainimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            mainimg.src = smallimg[3].src;
+        }
+        
+    </script>
+  
+    <script>script.js</script>
+</body>
+
+</html>    

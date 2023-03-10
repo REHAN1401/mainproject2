@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>special discount</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<section id="header">
+    <div class="logo"><a href="index.html"><img src="LOGO.png"></a></div>
+    <div class="sbox">
+        <input type="text" placeholder="Search...">
+        <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+    </div>
+    <nav>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="sale.html">Sales</a></li>
+            <li><a href="newarrivals.html">New Arrivals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>    
+        </ul>
+    </nav>
+   </section>
+
+
+   <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+       <img src="offerb1.webp" width="100%" id="mainimg" alt="">
+       <div class="small-img-group">
+        <div class="small-img-col">
+            <img src="offerb2.webp" alt="" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="offerb3.webp" alt="" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="offerb4.jpg" alt="" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="offerbp.jpg" alt="" width="100%" class="small-img" alt="">
+        </div>
+        </div> 
+    </div>
+
+
+<div class="single-pro-details">
+    <h5>Shoes /Bata</h5>
+    <h4>Bata Air Max 97 OG</h4>
+    <h2>₹16864</h2>
+    <b>15% DISCOUNT</b>
+    <h1 class="dispro">₹19840</h1>
+
+    <select>
+        <option>Select Size</option>
+        <option>UK 6.5</option>
+        <option>UK 7</option>
+        <option>UK 7.7</option>
+        <option>UK 10</option>
+    </select>
+    </br>
+    <input type="number" value="1">
+    <button class="normal">Add To Cart</button><br>
+    <h4>Product Details</h4>
+    <span>Push your style full speed ahead with the Nike Air Max 97 OG. Its iconic design takes inspiration from water droplets and Japanese bullet trains. Full-length Nike Air cushioning lets you ride in first-class comfort.</br>
+          <br>Colour Shown: Metallic Silver/Midnight Navy/Summit White/Chlorine Blue
+    </br>Style: DM0028-001</span>
+</div>
+</section>
+
+<br>
+<br>
+<br>
+<section class="disc-img">
+    <div>
+    <u><center><h3>Explore the Bata Air Max 97 Original Men's Shoes</h3></center><u>
+    </div><br>
+    <center><img src="offerba.webp"></center><br>
+    <center><div class="dis1img"><img src="offerbb.jpg"></center>
+    </div>
+    <div>
+        <br>
+        <br>
+        <center><h3><u>Originally designed for performance running, Bata Air cushioning ( the first of its kind) pairs best-in-class comfort with sporty style.</u></h3></center>
+    </div>
+    <br>
+    <br>
+    <center><div class="dis2img"><img src="offerbc.webp"></div></center>
+    <br>
+    <br>
+    <center><h3><u>Durable synthetic upper keeps the organic look of the original while mesh underlays help keep it airy.</u></h3></center>
+</section>
+
+<script>
+    var mainimg=document.getElementById("mainimg");
+    var smallimg=document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick = function(){
+        mainimg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        mainimg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        mainimg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        mainimg.src = smallimg[3].src;
+    }
+    
+</script>
+
+<script>script.js</script>
+</body>
+
+</html>    
